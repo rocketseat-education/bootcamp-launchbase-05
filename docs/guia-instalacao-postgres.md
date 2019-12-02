@@ -60,7 +60,7 @@ Caso haja os arquivos, então sua instação deu certo. Se não deu certo, você
 
 ### Ligar o Postgres
 
-1. Com o Powershell, navegue até a pasta da instação
+1. Abra o Powershell como administrador, e navegue até a pasta da instação
 
 ```bash
 cd C:\Program Files\PostgreSQL\12\bin\
