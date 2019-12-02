@@ -84,18 +84,10 @@ pg_ctl -D "C:\Program Files\PostgreSQL\12\data" stop
 
 ## Linux
 
-[Documentação de Instalação do Postgres](https://www.postgresql.org/download/linux/)
+[Documentação Oficial de Instalação do Postgres](https://www.postgresql.org/download/linux/)
 
 # Postbird
 
 É um aplicativo multi plataforma que vai te permitir usar o PostgresSQL com uma interface gráfica, para fazer as operações no banco de dados.
 
-Para instalar, vá até o site:
-https://electronjs.org/apps/postbird
-
-
-### References
-
-- https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360012608093-PostgreSQL-Comandos-para-START-STOP-e-RESTART-do-servidor-de-banco-de-dados-Postgres
-- https://medium.com/@aeadedoyin/getting-started-with-postgresql-on-windows-201906131300-ee75f066df78
-- https://gist.github.com/ibraheem4/ce5ccd3e4d7a65589ce84f2a3b7c23a3
+Para instalar, vá até o site: https://electronjs.org/apps/postbird e baixe o app.
