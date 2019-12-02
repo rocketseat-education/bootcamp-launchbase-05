@@ -84,6 +84,7 @@ pg_ctl -D "C:\Program Files\PostgreSQL\12\data" stop
 
 ## Linux
 
+[Documentação de Instalação do Postgres](https://www.postgresql.org/download/linux/)
 
 # Postbird
 
