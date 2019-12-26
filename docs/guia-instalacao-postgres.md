@@ -63,13 +63,13 @@ Caso haja os arquivos, então sua instação deu certo. Se não deu certo, você
 1. Abra o Powershell como administrador, e navegue até a pasta da instação
 
 ```bash
-cd C:\Program Files\PostgreSQL\12\bin\
+cd "C:\Program Files\PostgreSQL\12\bin\"
 ```
 
 2. Inicie o postgres com o comando abaixo:
 
 ```bash
-pg_ctl -D "C:\Program Files\PostgreSQL\12\data" start
+.\pg_ctl.exe -D "C:\Program Files\PostgreSQL\12\data" start
 ```
 
 *Note que o -D tem que ser maiúsculo para que o comando seja executado perfeitamente.*
@@ -79,7 +79,7 @@ pg_ctl -D "C:\Program Files\PostgreSQL\12\data" start
 Use o passo número 1 acima e digite o comando para desligar
 
 ```bash
-pg_ctl -D "C:\Program Files\PostgreSQL\12\data" stop
+.\pg_ctl.exe -D "C:\Program Files\PostgreSQL\12\data" stop
 ```
 
 ## Linux
